@@ -15,7 +15,7 @@ public class IndexController {
     @RequestMapping("/")
     public String home(Map<String, Object> model) {
         model.put("publicIp", publicIp);
-        model.put("appVersion", "V10");
+        model.put("appVersion", "V1");
         
         return "index";
     }
